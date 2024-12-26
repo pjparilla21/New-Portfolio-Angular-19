@@ -1,0 +1,14 @@
+.pol{
+    background: url('./../image/pol.jpg') no-repeat center center; background-size: cover;
+}
+
+.pol::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7); /* Adjust the opacity (0.5) to make it darker or lighter */
+   
+}
